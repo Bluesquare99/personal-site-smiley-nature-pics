@@ -1,0 +1,237 @@
+.position-o-faces {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 20px;
+  right: 20px;
+}
+
+.source-crystal {
+  position: absolute;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-o-faces {
+  margin: auto;
+}
+
+.face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.face-dt {
+  fill: #0076be;
+  stroke: #000;
+  padding: 2px;
+}
+
+@keyframes orbit-face-dt-1 {
+  from {
+    transform: rotate(0deg) translate(0, 80px);
+  }
+  to {
+    transform: rotate(360deg) translate(0, 80px);
+  }
+}
+
+@keyframes orbit-face-dt-2 {
+  from {
+    transform: rotate(0deg) translate(56.5px, 56.5px);
+  }
+  to {
+    transform: rotate(360deg) translate(56.5px, 56.5px);
+  }
+}
+
+@keyframes orbit-face-dt-3 {
+  from {
+    transform: rotate(0deg) translate(-56.5px, 56.5px);
+  }
+  to {
+    transform: rotate(360deg) translate(-56.5px, 56.5px);
+  }
+}
+
+@keyframes orbit-face-dt-4 {
+  from {
+    transform: rotate(0deg) translate(-80px, 0px);
+  }
+  to {
+    transform: rotate(360deg) translate(-80px, 0px);
+  }
+}
+
+@keyframes orbit-face-dt-5 {
+  from {
+    transform: rotate(0deg) translate(80px, 0px);
+  }
+  to {
+    transform: rotate(360deg) translate(80px, 0px);
+  }
+}
+
+@keyframes orbit-face-dt-6 {
+  from {
+    transform: rotate(0deg) translate(56.5px, -56.5px);
+  }
+  to {
+    transform: rotate(360deg) translate(56.5px, -56.5px);
+  }
+}
+
+@keyframes orbit-face-dt-7 {
+  from {
+    transform: rotate(0deg) translate(-56.5px, -56.5px);
+  }
+  to {
+    transform: rotate(360deg) translate(-56.5px, -56.5px);
+  }
+}
+
+@keyframes orbit-face-dt-8 {
+  from {
+    transform: rotate(0deg) translate(0px, -80px);
+  }
+  to {
+    transform: rotate(360deg) translate(0px, -80px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .face-dt-1 {
+    animation: orbit-face-dt-1 12000ms linear infinite;
+  }
+  .face-dt-2 {
+    animation: orbit-face-dt-2 12000ms linear infinite;
+  }
+  .face-dt-3 {
+    animation: orbit-face-dt-3 12000ms linear infinite;
+  }
+  .face-dt-4 {
+    animation: orbit-face-dt-4 12000ms linear infinite;
+  }
+  .face-dt-5 {
+    animation: orbit-face-dt-5 12000ms linear infinite;
+  }
+  .face-dt-6 {
+    animation: orbit-face-dt-6 12000ms linear infinite;
+  }
+  .face-dt-7 {
+    animation: orbit-face-dt-7 12000ms linear infinite;
+  }
+  .face-dt-8 {
+    animation: orbit-face-dt-8 12000ms linear infinite;
+  }
+}
+
+.face-vh {
+  stroke: #c1dcfa;
+  fill: yellow;
+}
+
+@keyframes orbit-face-vh-1 {
+  from {
+    transform: rotate(360deg) translate(0, 80px);
+  }
+  to {
+    transform: rotate(0deg) translate(0, 80px);
+  }
+}
+
+@keyframes orbit-face-vh-2 {
+  from {
+    transform: rotate(360deg) translate(56.5px, 56.5px);
+  }
+  to {
+    transform: rotate(0deg) translate(56.5px, 56.5px);
+  }
+}
+
+@keyframes orbit-face-vh-3 {
+  from {
+    transform: rotate(360deg) translate(-56.5px, 56.5px);
+  }
+  to {
+    transform: rotate(0deg) translate(-56.5px, 56.5px);
+  }
+}
+
+@keyframes orbit-face-vh-4 {
+  from {
+    transform: rotate(360deg) translate(-80px, 0px);
+  }
+  to {
+    transform: rotate(0deg) translate(-80px, 0px);
+  }
+}
+
+@keyframes orbit-face-vh-5 {
+  from {
+    transform: rotate(360deg) translate(80px, 0px);
+  }
+  to {
+    transform: rotate(0deg) translate(80px, 0px);
+  }
+}
+
+@keyframes orbit-face-vh-6 {
+  from {
+    transform: rotate(360deg) translate(56.5px, -56.5px);
+  }
+  to {
+    transform: rotate(0deg) translate(56.5px, -56.5px);
+  }
+}
+
+@keyframes orbit-face-vh-7 {
+  from {
+    transform: rotate(360deg) translate(-56.5px, -56.5px);
+  }
+  to {
+    transform: rotate(0deg) translate(-56.5px, -56.5px);
+  }
+}
+
+@keyframes orbit-face-vh-8 {
+  from {
+    transform: rotate(360deg) translate(0px, -80px);
+  }
+  to {
+    transform: rotate(0deg) translate(0px, -80px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .face-vh-1 {
+    animation: orbit-face-vh-1 3000ms linear infinite;
+  }
+  .face-vh-2 {
+    animation: orbit-face-vh-2 3000ms linear infinite;
+  }
+  .face-vh-3 {
+    animation: orbit-face-vh-3 3000ms linear infinite;
+  }
+  .face-vh-4 {
+    animation: orbit-face-vh-4 3000ms linear infinite;
+  }
+  .face-vh-5 {
+    animation: orbit-face-vh-5 3000ms linear infinite;
+  }
+  .face-vh-6 {
+    animation: orbit-face-vh-6 3000ms linear infinite;
+  }
+  .face-vh-7 {
+    animation: orbit-face-vh-7 3000ms linear infinite;
+  }
+  .face-vh-8 {
+    animation: orbit-face-vh-8 3000ms linear infinite;
+  }
+}
